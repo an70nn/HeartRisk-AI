@@ -1,0 +1,18 @@
+Accuratezza Modello: 0.8571
+F1 Score Modello (Classe 1): 0.8434
+Accuratezza Baseline: 0.5385
+F1 Score Baseline (Classe 1): 0.0000
+
+Report di Classificazione:
+              precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87        49
+           1       0.85      0.83      0.84        42
+
+    accuracy                           0.86        91
+   macro avg       0.86      0.86      0.86        91
+weighted avg       0.86      0.86      0.86        91
+
+Matrice di Confusione:
+43 6
+7 35
