@@ -67,7 +67,7 @@ HeartRisk-AI/
 4. Installa le dipendenze
 `pip install -r requirements.txt`
 5. Esegui il progetto
-`python main.py`
+`python .\src\main.py`
 
 # 📌 Autore
 |  |  |
