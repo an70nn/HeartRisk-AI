@@ -1,0 +1,30 @@
+# File Python compilati
+__pycache__/
+*.py[cod]
+
+# Cartelle di output
+output/
+*.csv
+*.txt
+
+# Report PDF
+*.pdf
+*.png
+
+# Notebook temporanei
+*.ipynb_checkpoints
+
+# Ambienti virtuali
+.env/
+.venv/
+env/
+venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# File IDE
+.vscode/
+.idea/
+*.code-workspace
