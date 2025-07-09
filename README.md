@@ -69,7 +69,9 @@ HeartRisk-AI/
 5. Esegui il progetto
 `python main.py`
 
-📌 Autore
-    Progetto sviluppato da an70nn
-    Università degli Studi di Bari - Corso MMSA
-    Anno Accademico: 2024/2025
+# 📌 Autore
+|  |  |
+|----------|--------|
+|Progetto sviluppato da | an70nn |
+|Università degli Studi di Bari | Corso MMSA |
+|Anno Accademico | 2024/2025 |
