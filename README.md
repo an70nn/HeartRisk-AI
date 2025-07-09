@@ -1,11 +1,12 @@
 Sistema predittivo per la diagnosi precoce delle malattie cardiache 
+
 Progetto realizzato per il corso di MMSA 2024/2025 – Università degli Studi di Bari Aldo Moro
 
-Introduzione
+# Introduzione
 HeartRisk AI è un progetto di machine learning che mira a predire la presenza di malattie cardiache attraverso tecniche di apprendimento supervisionato, spiegabilità (XAI) e test di robustezza.
 Il modello si basa sul Cleveland Heart Disease dataset della UCI Machine Learning Repository, scelto per la sua rilevanza clinica, struttura consolidata e ampia diffusione in ambito accademico.
 
-🎯 Obiettivo
+# 🎯 Obiettivo
 Predizione della malattia cardiaca
     Utilizzare un classificatore per stimare la presenza o assenza di patologie sulla base di parametri clinici e demografici.
     Spiegabilità delle predizioni
@@ -15,14 +16,15 @@ Predizione della malattia cardiaca
     Supporto decisionale
     Offrire uno strumento semplice ed efficace per screening preliminari o supporto clinico a basso costo.
 
-Dataset
-    Nome: Cleveland Heart Disease
-    Fonte: UCI ML Repository - Dataset #45
-    Record: 303 (con 14 feature)
-    Target: Presenza (1) o assenza (0) di malattia cardiaca
+|  |  |
+|----------|--------|
+| **Nome** | Cleveland Heart Disease |
+| **Fonte** | UCI ML Repository - Dataset #45 |
+| **Record** | 303 (con 14 feature) |
+| **Target** | Presenza (1) o assenza (0) di malattia cardiaca |
 
-📁 Struttura del Progetto
-
+# Struttura del Progetto
+<pre> 
 HeartRisk-AI/
 │
 ├── dataset/
@@ -51,23 +53,21 @@ HeartRisk-AI/
 ├── main.py
 ├── requirements.txt
 └── README.md
+ </pre>
 
-⚙️ # 1. Clona il repository
-git clone https://github.com/an70nn/HeartRisk-AI.git
-cd HeartRisk-AI
-
-# 2. Crea ed attiva l’ambiente virtuale
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Linux/macOS:
-source venv/bin/activate
-
-# 3. Installa le dipendenze
-pip install -r requirements.txt
-
-# 4. Esegui il progetto
-python main.py
+# Installazione
+1. Clona il repository
+`git clone https://github.com/an70nn/HeartRisk-AI.git`
+2. Sposta nella directory del progetto
+`cd HeartRisk-AI`
+3. Crea ed attiva l’ambiente virtuale
+`python -m venv venv`
+(Per Windows  venv\Scripts\activate)
+(Per Linux/macOS  source venv/bin/activate)
+4. Installa le dipendenze
+`pip install -r requirements.txt`
+5. Esegui il progetto
+`python main.py`
 
 📌 Autore
     Progetto sviluppato da an70nn
