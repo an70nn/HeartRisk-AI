@@ -5,7 +5,6 @@ __pycache__/
 # Cartelle di output
 output/
 *.csv
-*.txt
 
 # Report PDF
 *.pdf
