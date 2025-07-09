@@ -6,9 +6,6 @@ __pycache__/
 output/
 *.csv
 
-# Report PDF
-*.pdf
-*.png
 
 # Notebook temporanei
 *.ipynb_checkpoints
